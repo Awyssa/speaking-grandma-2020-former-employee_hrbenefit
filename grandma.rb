@@ -19,7 +19,7 @@ def speak_to_grandma(p)
     return "I LOVE YOU TOO PUMPKIN!"
   end
 
-  if p = p.downcase()
+  if p == p.downcase()
     return 'HUH?! SPEAK UP, SONNY!'
   else
     return "NO, NOT SINCE 1938!"
