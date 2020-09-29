@@ -16,10 +16,13 @@
 def speak_to_grandma(p)
   if p = 'I LOVE YOU GRANDMA!'
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif p = 'Hi Nana, how are you?'
+
+  elsif p.downcase = 'Hi Nana, how are you?'
     return 'HUH?! SPEAK UP, SONNY!'
+
   elsif p = 'WHAT DID YOU EAT TODAY?'
     return "NO, NOT SINCE 1938!"
+
   elsif p = 'WHAT?'
     return "NO, NOT SINCE 1938!"
   end
