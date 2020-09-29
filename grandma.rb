@@ -14,6 +14,7 @@
 
 
 def speak_to_grandma(p)
+
   if p == 'I LOVE YOU GRANDMA!'
     return "I LOVE YOU TOO PUMPKIN!"
   end
@@ -25,5 +26,5 @@ def speak_to_grandma(p)
   if p = p.upcase()
     return "NO, NOT SINCE 1938!"
   end
-  
+
 end
