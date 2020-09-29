@@ -23,7 +23,7 @@ def speak_to_grandma(p)
     return 'HUH?! SPEAK UP, SONNY!'
   end
 
-  if p = p.upcase()
+  if p == p.upcase()
     return "NO, NOT SINCE 1938!"
   end
 
